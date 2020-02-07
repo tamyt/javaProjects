@@ -1,0 +1,31 @@
+package emailapp;
+
+public class Email {
+	private String name;//private for encapsulation
+	private String lastName;
+	private String department;
+	private String company;
+	private String password;
+	private int mailBoxCapacity;
+	private String alternateEmail;
+	//Constructor to receive the first and last name
+	public Email(String nombre,String last) {
+		name = nombre;
+		lastName = last;
+		
+	}
+	
+	public static void main(String[] args) {
+	    Email myCar = new Email("lala", "Mustang");
+	    System.out.println(myCar.name + " " + myCar.lastName);
+	  }
+	//Ask for the department
+	
+	//Generate a random password
+	
+	//Set the mailbox capacity
+	
+	//Set the alternate email
+	
+	//Change the password
+}
