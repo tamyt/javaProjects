@@ -2,7 +2,9 @@ package emailapp;
 
 public class EmailApp {
 	public static void main(String[] args) {
-	    Email em1 = new Email("Jofn","adas");
+	    Email em1 = new Email("John","parrot");// new es igual a objeto
+	    // se instancio la clase email
+	    System.out.println(em1.showInfo());
 	  }
 
 }
